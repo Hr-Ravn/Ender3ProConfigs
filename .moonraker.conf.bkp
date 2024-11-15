@@ -79,3 +79,11 @@ virtualenv = ~/mobileraker-env
 requirements = scripts/mobileraker-requirements.txt
 install_script = scripts/install.sh
 
+[update_manager Kevins-Awesome-Macros]
+type = git_repo
+channel = dev
+path = ~/Kevins-Awesome-Macros
+origin = https://github.com/Department-of-Design/Kevins-Awesome-Macros.git
+managed_services = klipper
+primary_branch = main
+
