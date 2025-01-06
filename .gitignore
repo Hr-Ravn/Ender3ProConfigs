@@ -1,4 +1,12 @@
- saved_variables.cfg
- adxl_results/belts/*.csv
- adxl_results/vibrations/*.tar.gz
- printer-[0-9]*_[0-9]*.cfg
+exclude=( \
+"*.swp" \
+"*.tmp" \
+"printer-[0-9]*_[0-9]*.cfg" \
+"saved_variables.cfg" \
+"adxl_results/belts/*.csv" \
+"adxl_results/vibrations/*.tar.gz" \
+"*.bak" \
+"*.bkp" \
+"*.csv" \
+"*.zip" \
+)
